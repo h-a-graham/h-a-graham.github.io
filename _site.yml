@@ -3,7 +3,7 @@ output_dir: "."
 navbar:
   title: "Hugh A. Graham"
   left:
-    - text: "Writing"
+    - text: "publications"
       href: research.html
     - text: "Speaking"
       href: talks.html

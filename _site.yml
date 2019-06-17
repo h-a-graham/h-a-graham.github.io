@@ -4,7 +4,7 @@ navbar:
   title: "Hugh A. Graham"
   left:
     - text: "publications"
-      href: research.html
+      href: README.html
     - text: "Speaking"
       href: talks.html
     - text: "Programming"

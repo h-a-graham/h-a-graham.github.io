@@ -5,9 +5,9 @@
 
 <img src="images/Hugh_Photo.jpg" style="width:25%; border:10px solid; margin-right: 20px" align="left">
 
-Some words about me... change this link: [Memorial Sloan Kettering Cancer Center](https://www.mskcc.org/departments/epidemiology-biostatistics) 
+Some words about me... 
 
-more words...  [University of Exeter](http://www.sph.umn.edu/academics/divisions/biostatistics/) 
+more words...  [University of Exeter](https://lifesciences.exeter.ac.uk/) 
 
 
-My full CV is available [here](files/Zabor_CV_2017_Q4.pdf).
+My full CV is available [here](files/Hugh_Graham_CV.pdf).

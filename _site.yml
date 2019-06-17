@@ -1,0 +1,25 @@
+name: "Hugh A. Graham"
+output_dir: "."
+navbar:
+  title: "Hugh A. Graham"
+  left:
+    - text: "Writing"
+      href: research.html
+    - text: "Speaking"
+      href: talks.html
+    - text: "Programming"
+      href: software.html
+    - text: "Teaching"
+      href: teaching.html
+  right:
+    - icon: fa-envelope fa-lg
+      href: contact.html
+    - icon: fa-github fa-lg
+      href: https://github.com/h-a-graham
+    - icon: fa-twitter fa-lg
+      href: https://twitter.com/hughagraham
+
+output:
+  html_document:
+    theme: paper
+    css: 'styles.css'

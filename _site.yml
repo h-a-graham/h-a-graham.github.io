@@ -5,8 +5,8 @@ navbar:
   left:
     - text: "publications"
       href: publications.html
-    - text: "Speaking"
-      href: talks.html
+    - text: "projects"
+      href: projects.html
     - text: "Programming"
       href: software.html
 

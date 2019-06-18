@@ -20,5 +20,5 @@ navbar:
 
 output:
   html_document:
-    theme: Plainwhite
+    theme: paper
     css: 'styles.css'

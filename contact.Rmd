@@ -5,4 +5,4 @@
 
 My contact info:
 
-Contact: [email](hg340@exeter.ac.uk) 
+Contact: [email](mailto:hg340@exeter.ac.uk) 

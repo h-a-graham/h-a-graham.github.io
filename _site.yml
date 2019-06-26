@@ -8,7 +8,7 @@ navbar:
     - text: "projects"
       href: projects.html
     - text: "Programming"
-      href: software.html
+      href: Programming.html
 
   right:
     - icon: fa-envelope fa-lg

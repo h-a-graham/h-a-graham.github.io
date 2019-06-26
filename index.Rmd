@@ -3,11 +3,18 @@
 
 <link rel="stylesheet" href="styles.css" type="text/css">
 
-<img src="images/Hugh_Photo.jpg" style="width:25%; border:10px solid; margin-right: 20px" align="left">
+<img src="images/Hugh_Photo.jpg" style="width:30%; border:2px solid; margin-right: 20px" align="left">
+\
+I am a Geography PhD Student/Researcher looking into the impact of reintroducing beaver in Great Britain. 
 
-Some words about me... 
+As nature’s engineers, beavers have a substantial impact on our river systems. My research aims to quantify the impacts of beaver reintroduction whilst providing information critical to their future management.
 
-more words...  [University of Exeter](https://lifesciences.exeter.ac.uk/) 
+Key areas of interest include: the use of geospatial modelling to understand beaver habitat and population dynamics, using drones to quantify the impact of beaver on riparian vegetation structure and quantifying the impact of beaver dams on hydrological regimes.
+
+For further information please see:
+
+
+[Google Scholar](https://scholar.google.co.uk/citations?user=liRn8cYAAAAJ&hl=en) 
 
 
 My full CV is available [here](files/Hugh_Graham_CV.pdf).

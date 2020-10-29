@@ -3,7 +3,40 @@
 
 <link rel="stylesheet" href="styles.css" type="text/css">
 
-<img src="images/Nice_v1.png" style="width:70%;; margin-right: 30px" align="right">
+<img src="images/Nice_v1.png" style="width:70%;; margin-left: 30px" align="right">
 
-Check out my [Google Scholar](https://scholar.google.co.uk/citations?user=liRn8cYAAAAJ&hl=en) 
+\
+\
+\
+\
+\
 
+## Publications:
+
+For a full list of my publications check out my google scholar page:
+
+#### [Google Scholar](https://scholar.google.co.uk/citations?user=liRn8cYAAAAJ&hl=en) 
+
+\
+\
+\
+\
+\
+\
+\
+\
+\
+
+Graham, H.A., Puttock, A., Macfarlane, W.W., Wheaton, J.M., Gilbert, J.T., Campbell-Palmer, R., Elliott, M., Gaywood, M.J., Anderson, K., Brazier, R.E., 2020. Modelling Eurasian beaver foraging habitat and dam suitability, for predicting the location and number of dams throughout catchments in Great Britain. Eur J Wildl Res 66, 42. https://doi.org/10.1007/s10344-020-01379-w 
+
+Brazier, R. E., Puttock, A., Graham, H. A., Auster, R. E., Davies, K. H., & Brown, C. M. . (2020). Beaver: Nature’s ecosystem engineers. WIREs Water, In Press. https://doi.org/10.1002/wat2.1494 (Not yet available online)
+
+Cunliffe, A.M., Anderson, K., Boschetti, F., Brazier, R.E., Graham, H.A., Myers-Smith, I.H., Astor, T., Boer, M.M., Calvo, L., Clark, P.E., Cramer, M.D., Encinas-Lara, M.S., Escarzaga, S.M., Fernández-Guisuraga, J.M., Fisher, A.G., Gdulová, K., Gillespie, B.M., Griebel, A., Hanan, N.P., Hanggito, M.S., Haselberger, S., Havrilla, C.A., Heilman, P., Ji, W., Karl, J.W., Kirchhoff, M., Kraushaar, S., Lyons, M.B., Marzolff, I., Mauritz, M.E., McIntire, C.D., Metzen, D., Méndez-Barroso, L.A., Power, S.C., Prošek, J., Sanz-Ablanedo, E., Sauer, K.J., Schulze-Brüninghoff, D., Šímová, P., Sitch, S., Smit, J.L., Steele, C.M., Suárez-Seoane, S., Vargas, S.A., Villarreal, M.L., Visser, F., Wachendorf, M., Wirnsberger, H., Wojcikiewicz, R., 2020. Drone-derived canopy height predicts biomass across non-forest ecosystems globally (preprint). Ecology. https://doi.org/10.1101/2020.07.16.206011
+
+Brazier RE, Elliott M, Andison E, Auster RE, Bridgewater S, Burgess P, Chant J, Graham HA, Knott E, Puttock AK, Sansum P, Vowles A (2020) River Otter Beaver Trial: science and evidence report. River Otter Beaver Trial, Devon. https://www.exeter.ac.uk/creww/research/beavertrial/ 
+
+Campbell-Palmer, R., Puttock, A.K., Graham, H., Wilson, K., Schwab, G., Gaywood, M.J., Brazier, R.E., 2018. Survey of the Tayside area beaver population 2017-2018. Scottish Natural Heritage Commissioned Report No. 1013. [Link to report](https://www.nature.scot/sites/default/files/2018-10/Publication%202018%20-%20SNH%20Research%20Report%201013%20-%20Survey%20of%20the%20Tayside%20area%20beaver%20population%202017-2018.pdf)
+
+Puttock, A., Graham, H.A., Cunliffe, A.M., Elliott, M., Brazier, R.E. (2017) Eurasian beaver activity increases water storage, attenuates flow and mitigates diffuse pollution from intensively-managed grasslands. Science of The Total Environment 576, 430–443. doi:10.1016/j.scitotenv.2016.10.122; https://www.sciencedirect.com/science/article/pii/S0048969716323099 
+
+Puttock, A., Graham, H. A., Carless, D., & Brazier, R. E. (2018). Sediment and nutrient storage in a beaver engineered wetland. Earth Surface Processes and Landforms, 43(11), 2358-2370. https://onlinelibrary.wiley.com/doi/full/10.1002/esp.4398 

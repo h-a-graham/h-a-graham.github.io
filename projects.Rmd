@@ -3,16 +3,20 @@
 
 <link rel="stylesheet" href="styles.css" type="text/css">
 
-<img src="images/territories_v3.jpg" style="width:40%;  margin-right: 30px" align="right">
+<img src="images/BeaverNetwork_GB_V2-0.jpg" style="width:50%;  margin-right: 30px" align="left">
 
 \
 \
 \
 \
 
-* Beaver havitat Modelling for Great Britain
+## Some exciting projects I am working on:
 
-* Beaver Dam Capacity Modelling
+\
+
+* Beaver habitat modelling for Great Britain (GB)
+
+* Predicting beaver dam distribution, density and capacity for GB
 
 * Quantifying the impact of Beaver dams on Hydrology
 
@@ -20,4 +24,5 @@
 
 * Modelling beaver territory carrying capacity of the River Otter
 
-* Investigating the impact of beaver dams on macroinvetebrate communities.
+* Using Drone-based Structure from Motion (SfM) Photogrammetry to quantify the changes in ripaian vegetation
+

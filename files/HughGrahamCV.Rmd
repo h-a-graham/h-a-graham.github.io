@@ -1,0 +1,131 @@
+---
+title: \vspace{-2cm} Hugh Graham CV
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+fontfamily: mathpazo
+fontsize: 11pt
+urlcolor: blue
+header-includes:
+  - \usepackage{titling}
+  - \pretitle{\begin{flushleft}\fontsize{18bp}{18bp}\selectfont}
+  - \posttitle{\end{flushleft}}
+---
+\vspace{-2cm}
+\pagenumbering{gobble}
+
+*Email:*  hugh.a.graham@gmail.com \
+*Phone:*  07837191722 \
+*Address:*  8, Chestnut Close, Cheriton Bishop, EX6 6JR \
+*Website:*  https://h-a-graham.github.io/ \
+*GitHub:*  https://github.com/h-a-graham
+
+
+## Personal Statement
+
+[who am I?]
+
+I am currently working as a researcher in the Geography department at the University of Exeter.  
+
+[section on programming]
+Since learning to code, during my MSc, I have developed a real passion for it. Initially, my interests were in statistics and data visualisation but, as I developed as a programmer, the value and importance of structured, reproducible workflows and open source software became clear. The power of science is in its deployment and without code this will always be finite. I predominantly use R and python for software development and data analysis. However, I have developed a passion for programming and would jump at any opportunity to learn a new language. 
+
+[examples]
+
+Within our research group, I collaborate with many others across a diverse range of fields to improve the development of software, access to open source datasets and reproducible workflows. For example:
+
+* I have recently developed the R package [{EAlidaR}](https://github.com/h-a-graham/EAlidaR) which enables users to download high resolution LiDAR data, produced by the Environment Agency, directly into R. As a research group we all use this data to undertake hydrological and vegetation modelling; however, manually downloading the data from DEFRA’s portal has always been a time-consuming and limiting factor. This package helps to overcome these issues. 
+
+* Many of us within the research group use drone imagery to construct 3D models using Structure from Motion (SfM) Photogrammetry. In order to improve the reproducibility and accuracy of datasets, I have developed two python packages to streamline processing. Firstly [{sfm_precision}](https://github.com/exeter-creww/SFM_Precision/tree/master/sfm_precision), a python module for Agisoft Metashape, which calculates SFM precision entirely within Metashape, building on [James et al., 2017](https://onlinelibrary.wiley.com/doi/full/10.1002/esp.4125), who devised the method, but without the need for multiple different programs and with improved speed and storage efficiency. Secondly, [{sfm_gridz}](https://github.com/exeter-creww/SFM_Precision/tree/master/sfm_gridz) a python package to compute differences between elevation models, with consideration of each model’s precision and error.
+
+* There is also a need, within out group, to utilise Metofffice rainfall radar data. This dataset provides rainfall estimates at a 1km resolution nationally at 5 minute time steps. I have developed a [workflow](https://github.com/exeter-creww/Rainfall_radar) to download this data from the Centre for Environmental Data Analysis (CEDA) FTP server and then process this for a user-specified region to retrieve rainfall time-series data which we as a group use for hydrological analysis/modelling.
+
+
+[personal]
+...
+
+## Education
+
+*2015-ongoing, University of Exeter* \
+PhD, Understanding the Impact of reintroducing the Eurasian Beaver (Castor fiber) in Great Britain.\
+I am currently working part time on my PhD alongside other research projects.
+
+*2013-2014, University of Birmingham* \
+MSc, River environments and their management (Dist.) \
+Dissertation - 78%: An investigation into the impact of the Demon Shrimp (Dikerogammarus haemobaphes) on the benthic invertebrate community of the River Cherwell. [Link to thesis](http://www.nonnativespecies.org/index.cfm?pageid=559)
+
+*2009 -2012, University of Exeter* \
+BSC (Hons), Geography (2:1) \
+Dissertation - 78%: A laboratory flume experiment investigating the interaction between bed-load transport, erosion and channel geomorphology.
+
+## Employment:
+
+*University of Exeter – Researcher*\
+*01/03/2019 – present* \
+I am working in partnership with Natural England, The Environment Agency, Natural Resources Wales and Scottish Natural Heritage to model Eurasian beaver habitat and estimate the distribution and density of their dams for Great Britain. This has required the upscaling of our previous work ([Graham, et al. 2020](https://link.springer.com/article/10.1007%2Fs10344-020-01379-w)), developed as part of my PhD, to a national scale. This requires the calculation of numerous hydrological, topographic and vegetation metrics from a range of remotely-sensed datasets using geospatial processing. Moving this workflow from the landscape to national scale has been very challenging but but hugely rewarding. Alongside this work, I have also produced an [ArcGIS plugin](https://github.com/exeter-creww/Beaver_Tools_ArcToolbox) which enables those using the model outputs to interrogate and extract relevant data and statistics. This process has required me to work closely with the geospatial teams across the partnership to develop a stable and user-friendly tool.  
+
+*APEM ltd., Cardiff - Aquatic Consultant* \
+*15/10/2014 - 01/10/2015* \
+APEM ltd. is an aquatic consultancy specialising in both freshwater and marine environments. I worked within the freshwater side of the company, undertaking a range of different projects including diffuse pollution/fine sediment investigations, habitat mapping and evaluation, geomorphological surveys and drought permit assessments. My key roles included: data analysis and visualisation, geospatial analysis and mapping with ArcGIS, report writing and field work.
+
+*RMA environmental limited, Tiverton – Work Placement* \
+*01/05/2013 – 14/06/2013* \
+RMA environmental ltd. is a consultancy which specialises in Environmental impact assessments (EIAs), flood risk assessments, water quality monitoring and hydrology. During my placement at RMA, I was responsible for writing EIA chapters and flood risk assessments, proposing sustainable urban drainage designs, mapping with QGIS software and interpreting water chemistry and biological data in relation to river water quality.
+
+
+## Other Qualifications/Skills:
+
+Full and clean driving License
+
+Programming with R and Python
+
+Mapping and spatial analysis in QGIS, GRASS GIS and ArcGIS 
+
+## Conference Presentations:
+
+Presenter at 8th International Beavery Symposium 2018, Nørre Vosborg, Denmark
+
+Presenter at State of Beaver Conference 2017, Canyonville, Oregon. 
+
+Poster Presentations at European Geosciences Union 2018, Vienna Austria: 
+
+* Graham, H., Puttock, A., Benaud, P., Cunliffe, A., Elliott, M., Anderson, K., Brazier, R.E., 2018a. Determining the impact of the Eurasian Beaver (Castor fiber) on the vegetation and wetland structure of a riparian system using structure from motion (SFM) photogrammetry. 20, 796. [Link](https://ui.adsabs.harvard.edu/abs/2018EGUGA..20..796G/abstract) 
+
+* Graham, H., Puttock, A., Wheaton, J.M., Macfarlane, W., Elliott, M., Anderson, K., Brazier, R.E., 2018b. Predicting the expansion and impact of the Eurasian Beaver (Castor fiber) at catchment scales. 20, 782. [Link](https://ui.adsabs.harvard.edu/abs/2018EGUGA..20..782G/abstract)
+
+## Publications:
+
+Graham, H.A., Puttock, A., Macfarlane, W.W., Wheaton, J.M., Gilbert, J.T., Campbell-Palmer, R., Elliott, M., Gaywood, M.J., Anderson, K., Brazier, R.E., 2020. Modelling Eurasian beaver foraging habitat and dam suitability, for predicting the location and number of dams throughout catchments in Great Britain. Eur J Wildl Res 66, 42. https://doi.org/10.1007/s10344-020-01379-w 
+
+Brazier, R. E., Puttock, A., Graham, H. A., Auster, R. E., Davies, K. H., & Brown, C. M. . (2020). Beaver: Nature’s ecosystem engineers. WIREs Water, In Press. https://doi.org/10.1002/wat2.1494 (Not yet available online)
+
+Cunliffe, A.M., Anderson, K., Boschetti, F., Brazier, R.E., Graham, H.A., Myers-Smith, I.H., Astor, T., Boer, M.M., Calvo, L., Clark, P.E., Cramer, M.D., Encinas-Lara, M.S., Escarzaga, S.M., Fernández-Guisuraga, J.M., Fisher, A.G., Gdulová, K., Gillespie, B.M., Griebel, A., Hanan, N.P., Hanggito, M.S., Haselberger, S., Havrilla, C.A., Heilman, P., Ji, W., Karl, J.W., Kirchhoff, M., Kraushaar, S., Lyons, M.B., Marzolff, I., Mauritz, M.E., McIntire, C.D., Metzen, D., Méndez-Barroso, L.A., Power, S.C., Prošek, J., Sanz-Ablanedo, E., Sauer, K.J., Schulze-Brüninghoff, D., Šímová, P., Sitch, S., Smit, J.L., Steele, C.M., Suárez-Seoane, S., Vargas, S.A., Villarreal, M.L., Visser, F., Wachendorf, M., Wirnsberger, H., Wojcikiewicz, R., 2020. Drone-derived canopy height predicts biomass across non-forest ecosystems globally (preprint). Ecology. https://doi.org/10.1101/2020.07.16.206011
+
+Brazier RE, Elliott M, Andison E, Auster RE, Bridgewater S, Burgess P, Chant J, Graham HA, Knott E, Puttock AK, Sansum P, Vowles A (2020) River Otter Beaver Trial: science and evidence report. River Otter Beaver Trial, Devon. https://www.exeter.ac.uk/creww/research/beavertrial/
+
+Campbell-Palmer, R., Puttock, A.K., Graham, H., Wilson, K., Schwab, G., Gaywood, M.J., Brazier, R.E., 2018. Survey of the Tayside area beaver population 2017-2018. Scottish Natural Heritage Commissioned Report No. 1013. [Link to report](https://www.nature.scot/sites/default/files/2018-10/Publication%202018%20-%20SNH%20Research%20Report%201013%20-%20Survey%20of%20the%20Tayside%20area%20beaver%20population%202017-2018.pdf) 
+
+Puttock, A., Graham, H.A., Cunliffe, A.M., Elliott, M., Brazier, R.E. (2017) Eurasian beaver activity increases water storage, attenuates flow and mitigates diffuse pollution from intensively-managed grasslands. Science of The Total Environment 576, 430–443. doi:10.1016/j.scitotenv.2016.10.122; https://www.sciencedirect.com/science/article/pii/S0048969716323099 
+
+Puttock, A., Graham, H. A., Carless, D., & Brazier, R. E. (2018). Sediment and nutrient storage in a beaver engineered wetland. Earth Surface Processes and Landforms, 43(11), 2358-2370. https://onlinelibrary.wiley.com/doi/full/10.1002/esp.4398 
+
+## References
+
+----------------------------------------------------------------------
+**Professor Richard Brazier** (Professor of Earth Surface Processes) \
+College of Life and Environmental Sciences, University of Exeter \
+r.e.brazier@exeter.ac.uk \
+Amory Building, University of Exeter, Rennes Drive, Exeter, EX4 4RJ, UK
+
+
+---------------------------------------------------------------------
+**Dr Karen Anderson** (Associate Professor in Remote Sensing) \
+Environment and Sustainability Institute, University of Exeter \
+Karen.Anderson@exeter.ac.uk \
+University of Exeter, Penryn Campus, Penryn, Cornwall, TR10 9FE, UK 
+
+
+----------------------------------------------------------------------
+
+

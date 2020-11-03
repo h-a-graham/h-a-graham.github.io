@@ -16,7 +16,7 @@ header-includes:
   - \posttitle{\end{flushleft}}
 
 ---
-\vspace{-2cm}
+\vspace{-1.5cm}
 \pagenumbering{gobble}
 
 *Email:*  hugh.a.graham@gmail.com \
@@ -28,55 +28,26 @@ header-includes:
 
 ## Personal Statement
 
-[who am I?]
+I am in the latter stages of writing up my PhD which I am doing alongside my work as a researcher in the Geography department at the University of Exeter. I study the impact of reintroducing the Eurasian beaver in Great Britain with a particular focus on how they affect [hydrological flow regimes](https://github.com/h-a-graham/Budleigh_Brook_Beaver_Hydro), [riparian woodland strucure](https://github.com/h-a-graham/CWC_Results_Analysis) and predicting the distribution of their habitat and dam building activity ([Graham, et al. 2020](https://link.springer.com/article/10.1007%2Fs10344-020-01379-w)). During my time at Exeter, I have developed a passion for programming and open source approaches to science and I would therefore love the opportunity to pursue this as a career.
 
-I work as a Researcher/PhD student in the Geography department at the University of Exeter. I Now in the latter stages of writing up my PhD, I am looking to find work with a strong focus on software and programming in scientific research. My key areas of research have involved the assesment of the impact of the Eurasian beaver on [hydrological flow regimes](https://github.com/h-a-graham/Budleigh_Brook_Beaver_Hydro), [riparian woodland strucure](https://github.com/h-a-graham/CWC_Results_Analysis) and predicting the distribution of habitat and dam building activty ([Graham, et al. 2020](https://link.springer.com/article/10.1007%2Fs10344-020-01379-w)).
+Initially, my interest in coding was focused on statistics and data visualisation but, as I have developed as a programmer, the value and importance of structured, reproducible workflows and open source software has become clear. The power of science is in its utility and, without code, this can only be finite. I thoroughly enjoy helping others to find coding solutions; both in terms teaching others how to solve problems but also because I find that this dramatically improves my own learning through exposure to novel challenges.
 
-[section on programming]
+I predominantly use R and Python for data analysis and software development. However, I would jump at any opportunity to learn new languages. Access to new problems and continuous learning are the aspects of software development that I enjoy the most.
 
-Since learning to code, during my MSc, I have developed passion for it. Initially, my interests were in statistics and data visualisation but, as I developed as a programmer, the value and importance of structured, reproducible workflows and open source software became clear. The power of science is in its deployment and without code can only be finite. I also thoroughly enjoy helping others to find coding solutions; both in terms teaching others how to solve their issues but I also find that this dramatically improves my own learning through exposure to novel challanges.
-
-I predominantly use R and Python for data analysis and software development. However, I would jump at any opportunity to learn new languages. The access to new problems and learning is one of the aspects of software development that I enjoy the most.
-
-As a researcher working within a large group, I believe I have a strong understanding of the ways in which many in academia use programming software and In particular, the ways in which this can be improved.
-
-[examples]
+As a researcher working within a large group, I believe I have a strong understanding of the ways in which many in academia use programming software and the ways in which this can be improved.
 
 Within our research group, I collaborate with many others across a diverse range of fields to improve the development of software, access to open source datasets and reproducible workflows. For example:
 
-* I have recently developed the R package [{EAlidaR}](https://github.com/h-a-graham/EAlidaR) which enables users to download high resolution LiDAR data, produced by the Environment Agency, directly into R. As a research group we all use this data to undertake hydrological and vegetation modelling; however, manually downloading the data from DEFRA’s portal has always been a time-consuming and limiting factor. This package helps to overcome these issues. 
+* I have recently developed an R package [{EAlidaR}](https://github.com/h-a-graham/EAlidaR) which enables users to download high resolution LiDAR data, produced by the Environment Agency, directly into R. As a research group we all use this data to undertake hydrological and vegetation modelling; however, manually downloading the data from DEFRA’s portal has always been a time-consuming and limiting factor. This package helps to overcome these issues. 
 
-* Many of us within the research group use drone imagery to construct 3D models using Structure from Motion (SfM) Photogrammetry. In order to improve the reproducibility and accuracy of datasets, I have developed two Python packages to streamline processing. Firstly [{sfm_precision}](https://github.com/exeter-creww/SFM_Precision/tree/master/sfm_precision), a python module for Agisoft Metashape, which calculates SFM precision entirely within Metashape, building on [James et al., 2017](https://onlinelibrary.wiley.com/doi/full/10.1002/esp.4125), who devised the method, but without the need for multiple different programs and with improved speed and storage efficiency. Secondly, [{sfm_gridz}](https://github.com/exeter-creww/SFM_Precision/tree/master/sfm_gridz) a python package to compute differences between elevation models, with consideration of each model’s precision and error.
+* Many of us within the research group use drone imagery to construct 3D models using Structure from Motion (SfM) Photogrammetry. In order to improve the reproducibility and accuracy of these models, I have developed two Python packages to streamline processing. Firstly [{sfm_precision}](https://github.com/exeter-creww/SFM_Precision/tree/master/sfm_precision), a python module for Agisoft Metashape, which calculates SFM precision entirely within Metashape using their Python API. This builds on [James et al., 2017](https://onlinelibrary.wiley.com/doi/full/10.1002/esp.4125), who devised the method, but removes the need for multiple different programs and increases speed and storage efficiency. Secondly, [{sfm_gridz}](https://github.com/exeter-creww/SFM_Precision/tree/master/sfm_gridz) a python package to compute differences between elevation models, with consideration of each model’s precision and error.
+
+* Much of the SFM work that we do is computationally intensive and I have therefore helped to move some of this processing to Exeter University's ISCA HPC facility as part of [Cunliffe, et al.](http://biorxiv.org/lookup/doi/10.1101/2020.07.16.206011). This has been a really exciting project and I would enjoy the opportunity to further improve and develop my skills with HPC.
 
 * There is also a need, within out group, to utilise Met Office NIMROD rainfall radar data. This dataset provides rainfall estimates at a 1km resolution nationally at 5 minute time steps. I have developed a [workflow](https://github.com/exeter-creww/Rainfall_radar) to download this data from the Centre for Environmental Data Analysis (CEDA) FTP server and then process this for a user-specified region to retrieve rainfall time-series data which our group use for hydrological analysis/modelling.
 
----
-# Essential...
+Beyond work, I enjoy getting outdoors whenever possible, in particular I like to make the most of thw South West's beaches and rivers by going spearfishing and kayaking.
 
-# Experience of managing, structuring, and analysing research data, or experience of managing and organising the parameters and results of computational experiments.
-
-# Fluency in one or more modern programming languages used in the subject domain and a willingness to learn other languages as necessary.
-
-# An understanding of the importance of good practices for producing reliable software and reproducible analyses (including version control, issue tracking, automated testing, package management, tools for literate data analysis such as Jupyter and R Markdown).
-
-# Experience of contributing to grant applications
-
-# visual representation of quantitative data
-
-#Ability to multi-task and lead one’s own work independently, including planning and execution of multiple concurrent projects with diverse stakeholders.
-
-# personal
-
-
-# Aditional / Desirable...
-
-# Developing applications for high-performance computing hardware using technologies such as CUDA, MPI and OpenMP.
-
-# Mathematical and computational modelling of complex systems
-
-# Exposure to mixed or qualitative research methods
-
----
 
 ## Education
 
@@ -109,11 +80,11 @@ RMA environmental ltd. is a consultancy which specialises in Environmental impac
 
 ## Other Qualifications/Skills
 
-Full and clean driving License
-
 Programming with R and Python
 
 Mapping and spatial analysis in QGIS, GRASS GIS and ArcGIS 
+
+Full and clean driving License
 
 ## Conference Presentations
 
@@ -153,4 +124,4 @@ University of Exeter, Penryn Campus, Penryn, Cornwall, TR10 9FE, UK
 
 \vspace {4cm}
 
-\footnotesize{*Rendered with R Markdown}
+\footnotesize *Rendered with R Markdown 

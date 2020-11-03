@@ -14,7 +14,6 @@ header-includes:
   - \usepackage{titling}
   - \pretitle{\begin{flushleft}\fontsize{18bp}{18bp}\selectfont}
   - \posttitle{\end{flushleft}}
-
 ---
 \vspace{-1.5cm}
 \pagenumbering{gobble}
@@ -46,7 +45,7 @@ Within our research group, I collaborate with many others across a diverse range
 
 * There is also a need, within our group, to utilise Met Office NIMROD rainfall radar data. This dataset provides rainfall estimates at a 1km resolution nationally at 5 minute time steps. I have developed a [workflow](https://github.com/exeter-creww/Rainfall_radar) to download this data from the Centre for Environmental Data Analysis (CEDA) FTP server and then process this for a user-specified region to retrieve rainfall time-series data which our group use for hydrological analysis/modelling. The workflow has been used for several projects including: [Upstream Thinking](https://www.exeter.ac.uk/creww/research/casestudies/upstreamthinking/), [Whole Catchment](https://www.exeter.ac.uk/creww/research/casestudies/wholecatchment/), [Mires Project](https://www.exeter.ac.uk/creww/research/casestudies/miresproject/) and our in-review paper titled: *'Beaver dams attenuate floods: a multi-site, multi-scale study'* .
 
-Beyond work, I enjoy getting outdoors whenever possible, in particular I like to make the most of the South West's beaches and rivers by going spearfishing and kayaking. In fact, I have also contributed to an open source project called [Is The Dart Running?](http://isthedartrunning.co.uk/) which uses a machine-learning algorithm
+Beyond work, I enjoy getting outdoors whenever possible, in particular I like to make the most of the South West's beaches and rivers by going spearfishing and kayaking. In fact, I have also contributed to an open source project called [Is The Dart Running?](http://isthedartrunning.co.uk/) which uses a machine-learning approach to predict the water level of the River Dart to determine if the river is high enough to kayak.
 
 ## Education
 
@@ -76,12 +75,15 @@ APEM ltd. is an aquatic consultancy specialising in both freshwater and marine e
 *01/05/2013 – 14/06/2013* \
 RMA environmental ltd. is an environmental consultancy. During my placement at RMA, I was responsible for report writing, mapping with QGIS software and data analysis.
 
-
 ## Other Qualifications/Skills
 
 Programming with R and Python
 
-Mapping and spatial analysis in QGIS, GRASS GIS and ArcGIS 
+Mapping and spatial analysis in QGIS, GRASS GIS, Arc GIS/Pro and their respective python APIs
+
+Extensive experience with Agisoft Metashape SFM software and its Python API
+
+Experience with Bash and Shell scripting
 
 Full and clean driving License
 
@@ -121,6 +123,5 @@ University of Exeter, Penryn Campus, Penryn, Cornwall, TR10 9FE, UK
 
 ----------------------------------------------------------------------
 
-\vspace {1cm}
 
 \scriptsize *Rendered with R Markdown 

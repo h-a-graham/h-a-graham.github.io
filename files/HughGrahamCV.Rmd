@@ -32,9 +32,9 @@ I am in the latter stages of writing up my PhD which I am doing alongside my wor
 
 Initially, my interest in coding was focused on statistics and data visualisation but, as I have developed as a programmer, the value and importance of structured, reproducible workflows and open source software has become clear. The power of science is in its utility and, without code, this can only be finite. I thoroughly enjoy helping others to find coding solutions; both in terms teaching others how to solve problems but also because I find that this dramatically improves my own learning through exposure to novel challenges.
 
-I predominantly use R and Python for data analysis and software development. However, I would jump at any opportunity to learn new languages. Access to new problems and continuous learning are the aspects of software development that I enjoy the most.
+I predominantly use R and Python for data analysis and software development. However, I would jump at any opportunity to learn new languages. Access to new problems and continuous learning are the aspects of programming that I enjoy the most.
 
-As a researcher working within a large group, I believe I have a strong understanding of the ways in which many in academia use programming software and the ways in which this can be improved.
+As a researcher, working within a large group, I believe I have a strong understanding of the ways in which many in academia use programming software and the ways in which this can be improved.
 
 Within our research group, I collaborate with many others across a diverse range of fields to improve the development of software, access to open source datasets and reproducible workflows. For example:
 
@@ -42,25 +42,25 @@ Within our research group, I collaborate with many others across a diverse range
 
 * Many of us within the research group use drone imagery to construct 3D models using Structure from Motion (SfM) Photogrammetry. In order to improve the reproducibility and accuracy of these models, I have developed two Python packages to streamline processing. Firstly [{sfm_precision}](https://github.com/exeter-creww/SFM_Precision/tree/master/sfm_precision), a python module for Agisoft Metashape, which calculates SFM precision entirely within Metashape using their Python API. This builds on [James et al., 2017](https://onlinelibrary.wiley.com/doi/full/10.1002/esp.4125), who devised the method, but removes the need for multiple different programs and increases speed and storage efficiency. Secondly, [{sfm_gridz}](https://github.com/exeter-creww/SFM_Precision/tree/master/sfm_gridz) a python package to compute differences between elevation models, with consideration of each model’s precision and error.
 
-* Much of the SFM work that we do is computationally intensive and I have therefore helped to move some of this processing to Exeter University's ISCA HPC facility as part of [Cunliffe, et al.](http://biorxiv.org/lookup/doi/10.1101/2020.07.16.206011). This has been a really exciting project and I would enjoy the opportunity to further improve and develop my skills with HPC.
+* Much of the SFM work that we do is computationally intensive and I have therefore helped to move some of this processing to Exeter University's ISCA HPC facility as part of [Cunliffe, et al., 2020](http://biorxiv.org/lookup/doi/10.1101/2020.07.16.206011). This has been a really exciting project and I would enjoy the opportunity to further improve and develop my skills with HPC.
 
 * There is also a need, within out group, to utilise Met Office NIMROD rainfall radar data. This dataset provides rainfall estimates at a 1km resolution nationally at 5 minute time steps. I have developed a [workflow](https://github.com/exeter-creww/Rainfall_radar) to download this data from the Centre for Environmental Data Analysis (CEDA) FTP server and then process this for a user-specified region to retrieve rainfall time-series data which our group use for hydrological analysis/modelling.
 
-Beyond work, I enjoy getting outdoors whenever possible, in particular I like to make the most of thw South West's beaches and rivers by going spearfishing and kayaking.
+Beyond work, I enjoy getting outdoors whenever possible, in particular I like to make the most of the South West's beaches and rivers by going spearfishing and kayaking.
 
 
 ## Education
 
 *2015-ongoing, University of Exeter* \
-PhD, Understanding the Impact of reintroducing the Eurasian Beaver (Castor fiber) in Great Britain.\
+PhD, Understanding the Impact of reintroducing the Eurasian Beaver (*Castor fiber*) in Great Britain.\
 I am currently working part time on my PhD alongside other research projects.
 
 *2013-2014, University of Birmingham* \
 MSc, River environments and their management (Dist.) \
-Dissertation - 78%: An investigation into the impact of the Demon Shrimp (Dikerogammarus haemobaphes) on the benthic invertebrate community of the River Cherwell. [Link to thesis](http://www.nonnativespecies.org/index.cfm?pageid=559)
+Dissertation - 78%: An investigation into the impact of the Demon Shrimp (*Dikerogammarus haemobaphes*) on the benthic invertebrate community of the River Cherwell. [Link to thesis](http://www.nonnativespecies.org/index.cfm?pageid=559)
 
 *2009 -2012, University of Exeter* \
-BSC (Hons), Geography (2:1) \
+BSc (Hons), Geography (2:1) \
 Dissertation - 78%: A laboratory flume experiment investigating the interaction between bed-load transport, erosion and channel geomorphology.
 
 ## Employment
@@ -71,11 +71,11 @@ I am working in partnership with Natural England, The Environment Agency, Natura
 
 *APEM ltd., Cardiff - Aquatic Consultant* \
 *15/10/2014 - 01/10/2015* \
-APEM ltd. is an aquatic consultancy specialising in both freshwater and marine environments. I worked within the freshwater side of the company, undertaking a range of different projects including diffuse pollution/fine sediment investigations, habitat mapping and evaluation, geomorphological surveys and drought permit assessments. My key roles included: data analysis and visualisation, geospatial analysis and mapping with ArcGIS, report writing and field work.
+APEM ltd. is an aquatic consultancy specialising in both freshwater and marine environments. My key roles included: data analysis and visualisation, geospatial analysis and mapping with ArcGIS, report writing and field work.
 
 *RMA environmental limited, Tiverton – Work Placement* \
 *01/05/2013 – 14/06/2013* \
-RMA environmental ltd. is a consultancy which specialises in Environmental impact assessments (EIAs), flood risk assessments, water quality monitoring and hydrology. During my placement at RMA, I was responsible for writing EIA chapters and flood risk assessments, proposing sustainable urban drainage designs, mapping with QGIS software and interpreting water chemistry and biological data in relation to river water quality.
+RMA environmental ltd. is an environmental consultancy. During my placement at RMA, I was responsible for report writing, mapping with QGIS software and data analysis.
 
 
 ## Other Qualifications/Skills
@@ -88,15 +88,15 @@ Full and clean driving License
 
 ## Conference Presentations
 
-* Presenter at 8th International Beavery Symposium 2018, Nørre Vosborg, Denmark
-
-* Presenter at State of Beaver Conference 2017, Canyonville, Oregon. 
+* Presenter at 8th International Beaver Symposium 2018, Nørre Vosborg, Denmark
 
 * Poster Presentations at European Geosciences Union 2018, Vienna Austria: 
 
   + Graham, H., Puttock, A., Benaud, P., Cunliffe, A., Elliott, M., Anderson, K., Brazier, R.E., 2018a. Determining the impact of the Eurasian Beaver (Castor fiber) on the vegetation and wetland structure of a riparian system using structure from motion (SFM) photogrammetry. 20, 796. [Link](https://ui.adsabs.harvard.edu/abs/2018EGUGA..20..796G/abstract) 
 
   +  Graham, H., Puttock, A., Wheaton, J.M., Macfarlane, W., Elliott, M., Anderson, K., Brazier, R.E., 2018b. Predicting the expansion and impact of the Eurasian Beaver (Castor fiber) at catchment scales. 20, 782. [Link](https://ui.adsabs.harvard.edu/abs/2018EGUGA..20..782G/abstract)
+
+* Presenter at State of Beaver Conference 2017, Canyonville, Oregon.
 
 ## Publications
 
@@ -122,6 +122,6 @@ University of Exeter, Penryn Campus, Penryn, Cornwall, TR10 9FE, UK
 
 ----------------------------------------------------------------------
 
-\vspace {4cm}
+\vspace {6cm}
 
 \footnotesize *Rendered with R Markdown 

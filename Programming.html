@@ -11,26 +11,40 @@
 
 
 
-<title>Programming.utf8</title>
+<title>Programming.knit</title>
 
+<script src="site_libs/header-attrs-2.8/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/paper.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
-<style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -43,32 +57,7 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+
 
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
@@ -79,10 +68,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -99,40 +84,13 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 64px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
-.section h2 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
-.section h3 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
-.section h4 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
-.section h5 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
-.section h6 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -160,7 +118,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -172,7 +130,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -183,10 +141,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -198,7 +169,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -287,19 +257,19 @@ $(document).ready(function () {
       <ul class="nav navbar-nav navbar-right">
         <li>
   <a href="contact.html">
-    <span class="fa fa-envelope fa-lg"></span>
+    <span class="fas fa-envelope fa-lg"></span>
      
   </a>
 </li>
 <li>
   <a href="https://github.com/h-a-graham">
-    <span class="fa fa-github fa-lg"></span>
+    <span class="fas fa-github fa-lg"></span>
      
   </a>
 </li>
 <li>
   <a href="https://twitter.com/hughagraham">
-    <span class="fa fa-twitter fa-lg"></span>
+    <span class="fas fa-twitter fa-lg"></span>
      
   </a>
 </li>
@@ -308,7 +278,7 @@ $(document).ready(function () {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -316,43 +286,50 @@ $(document).ready(function () {
 </div>
 
 
+<div id="section" class="section level2">
+<h2>—</h2>
 <p><link rel="stylesheet" href="styles.css" type="text/css"></p>
-<p><img src="images/AshopRayshade.png" style="width:60%; margin-left: 30px" align="right"></p>
+<p><a href="https://github.com/h-a-graham/EAlidaR"><img src="images/HexLogov1.png" 
+style="width:30%; margin-left: 30px" align="centre"> <a href="https://github.com/h-a-graham/rayvista"> <img src="images/hex_HR.png" 
+style="width:30%; margin-left: 30px" align="centre" ></a></p>
 <p><br />
-<br />
-<br />
-<br />
 </p>
 <div id="for-software-and-data-anlysis-code-check-out-these-github-links" class="section level3">
 <h3>For software and data anlysis code check out these GitHub links:</h3>
-<p><br />
-</p>
 <div id="hughs-github-page" class="section level4">
 <h4><a href="https://github.com/h-a-graham">Hugh’s GitHub Page</a></h4>
 <p>and</p>
 </div>
-<div id="the-creww-github-page" class="section level4">
-<h4><a href="https://github.com/exeter-creww">The CREWW GitHub Page</a></h4>
-<p><br />
-<br />
-<br />
-<br />
-</p>
+<div id="creww-github-page" class="section level4">
+<h4><a href="https://github.com/exeter-creww">CREWW GitHub Page</a></h4>
 </div>
 </div>
-<div id="highlights" class="section level3">
-<h3>Highlights:</h3>
+<div id="some-highlights" class="section level3">
+<h3>Some Highlights:</h3>
 <div id="ealidar" class="section level4">
 <h4><a href="https://github.com/h-a-graham/EAlidaR">EAlidaR</a></h4>
 <p>An R package to download EA LiDAR composite data for England</p>
 </div>
+<div id="rayvista" class="section level4">
+<h4><a href="https://github.com/h-a-graham/rayvista">rayvista</a></h4>
+<p>An R package to make create 3D scenes anywhere in the world using {rayshader}</p>
+</div>
 <div id="sfm_precision" class="section level4">
 <h4><a href="https://github.com/exeter-creww/SFM_Precision/tree/master/sfm_precision">sfm_precision</a></h4>
-<p>A python plugin for Agisoft Metashpae to carry out precision analysis as originally proposed in <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/esp.4125">James, et al. (2017)</a> but with all calculations done within Metashape/python.</p>
+<p>A python module for Agisoft Metashpae to carry out precision analysis as originally proposed in <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/esp.4125">James, et al. (2017)</a> but with all calculations done within Metashape/python.</p>
 </div>
 <div id="sfm_gridz" class="section level4">
 <h4><a href="https://github.com/exeter-creww/SFM_Precision/tree/master/sfm_gridz">sfm_gridz</a></h4>
-<p>A python package to conduct robust raster-based change detection analysis with consideration of sfm precision derived in from the sfm_precision metashape plugin</p>
+<p>A python package to conduct robust raster-based change detection analysis with consideration of sfm precision derived in from the sfm_precision Metashape python module</p>
+</div>
+<div id="beaver-hydrological-impacts" class="section level4">
+<h4><a href="https://github.com/h-a-graham/Budleigh_Brook_Beaver_Hydro">Beaver Hydrological Impacts</a></h4>
+<p>A reproducible data analysis workflow to quantify the impact of beaver dams on stream flows using a BACI experimental design.</p>
+</div>
+<div id="beavertools" class="section level4">
+<h4><a href="https://github.com/h-a-graham/beavertools">beavertools</a></h4>
+<p>An R package to map and model the expansion of beaver populations</p>
+</div>
 </div>
 </div>
 
@@ -365,7 +342,7 @@ $(document).ready(function () {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
@@ -383,7 +360,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>

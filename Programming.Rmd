@@ -3,18 +3,14 @@
 
 <link rel="stylesheet" href="styles.css" type="text/css">
 
-<img src="images/AshopRayshade.png" style="width:60%; margin-left: 30px" align="right">
+<a href="https://github.com/h-a-graham/EAlidaR"><img src="images/HexLogov1.png" 
+style="width:30%; margin-left: 30px" align="centre">
+<a href="https://github.com/h-a-graham/rayvista"> <img src="images/hex_HR.png" 
+style="width:30%; margin-left: 30px" align="centre" ></a>
 
 \
-\
-\
-\
-\
-
 
 ### For software and data anlysis code check out these GitHub links:
-
-\
 
 #### [Hugh's GitHub Page](https://github.com/h-a-graham)
 
@@ -22,16 +18,15 @@ and
 
 #### [CREWW GitHub Page](https://github.com/exeter-creww)
 
-\
-\
-\
-\
 
-### Highlights:
+### Some Highlights:
 
 
 #### [EAlidaR](https://github.com/h-a-graham/EAlidaR) 
 An R package to download EA LiDAR composite data for England
+
+#### [rayvista](https://github.com/h-a-graham/rayvista) 
+An R package to make create 3D scenes anywhere in the world using {rayshader}
 
 #### [sfm_precision](https://github.com/exeter-creww/SFM_Precision/tree/master/sfm_precision)
 A python module for Agisoft Metashpae to carry out precision analysis as originally proposed in [James, et al. (2017)](https://onlinelibrary.wiley.com/doi/full/10.1002/esp.4125) but with all calculations done within Metashape/python.
@@ -41,3 +36,7 @@ A python package to conduct robust raster-based change detection analysis with c
 
 #### [Beaver Hydrological Impacts](https://github.com/h-a-graham/Budleigh_Brook_Beaver_Hydro)
 A reproducible data analysis workflow to quantify the impact of beaver dams on stream flows using a BACI experimental design.
+
+#### [beavertools](https://github.com/h-a-graham/beavertools) 
+An R package to map and model the expansion of beaver populations
+

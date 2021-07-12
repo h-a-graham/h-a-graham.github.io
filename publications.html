@@ -11,26 +11,40 @@
 
 
 
-<title>publications.utf8</title>
+<title>publications.knit</title>
 
+<script src="site_libs/header-attrs-2.8/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/paper.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
-<style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -43,30 +57,27 @@ if (window.hljs) {
 
 
 
+
 <style type="text/css">
-h1 {
-  font-size: 34px;
+/* for pandoc --citeproc since 2.11 */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
 }
-h1.title {
-  font-size: 38px;
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
 }
-h2 {
-  font-size: 30px;
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
 }
-h3 {
-  font-size: 24px;
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
 }
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
+div.csl-indent {
+  margin-left: 2em;
 }
 </style>
 
@@ -79,10 +90,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -99,40 +106,13 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 64px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
-.section h2 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
-.section h3 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
-.section h4 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
-.section h5 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
-.section h6 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -160,7 +140,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -172,7 +152,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -183,10 +163,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -198,7 +191,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -287,19 +279,19 @@ $(document).ready(function () {
       <ul class="nav navbar-nav navbar-right">
         <li>
   <a href="contact.html">
-    <span class="fa fa-envelope fa-lg"></span>
+    <span class="fas fa-envelope fa-lg"></span>
      
   </a>
 </li>
 <li>
   <a href="https://github.com/h-a-graham">
-    <span class="fa fa-github fa-lg"></span>
+    <span class="fas fa-github fa-lg"></span>
      
   </a>
 </li>
 <li>
   <a href="https://twitter.com/hughagraham">
-    <span class="fa fa-twitter fa-lg"></span>
+    <span class="fas fa-twitter fa-lg"></span>
      
   </a>
 </li>
@@ -308,7 +300,7 @@ $(document).ready(function () {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -317,35 +309,42 @@ $(document).ready(function () {
 
 
 <p><link rel="stylesheet" href="styles.css" type="text/css"></p>
-<p><img src="images/Nice_v1.png" style="width:70%;; margin-right: 30px" align="right"></p>
+<p><img src="images/Nice_v1.png" style="width:40%;; margin-left: 100px" align="centre"></p>
 <p><br />
-<br />
-<br />
-<br />
-<br />
 </p>
 <div id="publications" class="section level2">
 <h2>Publications:</h2>
-<p>For a full list of my publications check out my google scholar page:</p>
-<div id="google-scholar" class="section level4">
-<h4><a href="https://scholar.google.co.uk/citations?user=liRn8cYAAAAJ&amp;hl=en">Google Scholar</a></h4>
+<p>For a full list of my publications check out my <strong><a href="https://scholar.google.co.uk/citations?user=liRn8cYAAAAJ&amp;hl=en">Google Scholar</a> page</strong></p>
 <p><br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
 </p>
-<p>Graham, H.A., Puttock, A., Macfarlane, W.W., Wheaton, J.M., Gilbert, J.T., Campbell-Palmer, R., Elliott, M., Gaywood, M.J., Anderson, K., Brazier, R.E., 2020. Modelling Eurasian beaver foraging habitat and dam suitability, for predicting the location and number of dams throughout catchments in Great Britain. Eur J Wildl Res 66, 42. <a href="https://doi.org/10.1007/s10344-020-01379-w" class="uri">https://doi.org/10.1007/s10344-020-01379-w</a></p>
-<p>Brazier, R. E., Puttock, A., Graham, H. A., Auster, R. E., Davies, K. H., &amp; Brown, C. M. . (2020). Beaver: Nature’s ecosystem engineers. WIREs Water, In Press. <a href="https://doi.org/10.1002/wat2.1494" class="uri">https://doi.org/10.1002/wat2.1494</a> (Not yet available online)</p>
-<p>Cunliffe, A.M., Anderson, K., Boschetti, F., Brazier, R.E., Graham, H.A., Myers-Smith, I.H., Astor, T., Boer, M.M., Calvo, L., Clark, P.E., Cramer, M.D., Encinas-Lara, M.S., Escarzaga, S.M., Fernández-Guisuraga, J.M., Fisher, A.G., Gdulová, K., Gillespie, B.M., Griebel, A., Hanan, N.P., Hanggito, M.S., Haselberger, S., Havrilla, C.A., Heilman, P., Ji, W., Karl, J.W., Kirchhoff, M., Kraushaar, S., Lyons, M.B., Marzolff, I., Mauritz, M.E., McIntire, C.D., Metzen, D., Méndez-Barroso, L.A., Power, S.C., Prošek, J., Sanz-Ablanedo, E., Sauer, K.J., Schulze-Brüninghoff, D., Šímová, P., Sitch, S., Smit, J.L., Steele, C.M., Suárez-Seoane, S., Vargas, S.A., Villarreal, M.L., Visser, F., Wachendorf, M., Wirnsberger, H., Wojcikiewicz, R., 2020. Drone-derived canopy height predicts biomass across non-forest ecosystems globally (preprint). Ecology. <a href="https://doi.org/10.1101/2020.07.16.206011" class="uri">https://doi.org/10.1101/2020.07.16.206011</a></p>
-<p>Brazier RE, Elliott M, Andison E, Auster RE, Bridgewater S, Burgess P, Chant J, Graham HA, Knott E, Puttock AK, Sansum P, Vowles A (2020) River Otter Beaver Trial: science and evidence report. River Otter Beaver Trial, Devon. <a href="https://www.exeter.ac.uk/creww/research/beavertrial/" class="uri">https://www.exeter.ac.uk/creww/research/beavertrial/</a></p>
-<p>Campbell-Palmer, R., Puttock, A.K., Graham, H., Wilson, K., Schwab, G., Gaywood, M.J., Brazier, R.E., 2018. Survey of the Tayside area beaver population 2017-2018. Scottish Natural Heritage Commissioned Report No. 1013. <a href="https://www.nature.scot/sites/default/files/2018-10/Publication%202018%20-%20SNH%20Research%20Report%201013%20-%20Survey%20of%20the%20Tayside%20area%20beaver%20population%202017-2018.pdf">Link to report</a></p>
-<p>Puttock, A., Graham, H.A., Cunliffe, A.M., Elliott, M., Brazier, R.E. (2017) Eurasian beaver activity increases water storage, attenuates flow and mitigates diffuse pollution from intensively-managed grasslands. Science of The Total Environment 576, 430–443. <a href="doi:10.1016/j.scitotenv.2016.10.122" class="uri">doi:10.1016/j.scitotenv.2016.10.122</a>; <a href="https://www.sciencedirect.com/science/article/pii/S0048969716323099" class="uri">https://www.sciencedirect.com/science/article/pii/S0048969716323099</a></p>
-<p>Puttock, A., Graham, H. A., Carless, D., &amp; Brazier, R. E. (2018). Sediment and nutrient storage in a beaver engineered wetland. Earth Surface Processes and Landforms, 43(11), 2358-2370. <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/esp.4398" class="uri">https://onlinelibrary.wiley.com/doi/full/10.1002/esp.4398</a></p>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-brazier_river_2020" class="csl-entry">
+Brazier, R. E., M. E. Elliott, E Andison, R. E. Auster, S Bridgewater, P Burgess, J Chant, et al. 2020. <span>“River <span>Otter</span> <span>Beaver</span> <span>Trial</span>: Science and Evidence Report. <span>River</span> <span>Otter</span> <span>Beaver</span> <span>Trial</span>, <span>Devon</span>.”</span> <a href="https://www.exeter.ac.uk/creww/research/beavertrial/">https://www.exeter.ac.uk/creww/research/beavertrial/</a>.
+</div>
+<div id="ref-brazier_beaver_2021" class="csl-entry">
+Brazier, Richard E., Alan Puttock, Hugh A. Graham, Roger E. Auster, Kye H. Davies, and Chryssa M. L. Brown. 2021. <span>“Beaver: <span>Nature</span>’s Ecosystem Engineers.”</span> <em>WIREs Water</em> 8 (1): e1494. <a href="https://doi.org/10.1002/wat2.1494">https://doi.org/10.1002/wat2.1494</a>.
+</div>
+<div id="ref-campbell-palmer_survey_2018" class="csl-entry">
+Campbell-Palmer, R., A. K. Puttock, H. A. Graham, K Wilson, G. Schwab, M. J. Gaywood, and R. E. Brazier. 2018. <span>“Survey of the <span>Tayside</span> Area Beaver Population 2017-2018.”</span> <a href="https://www.nature.scot/naturescot-research-report-1013-survey-tayside-area-beaver-population-2017-2018">https://www.nature.scot/naturescot-research-report-1013-survey-tayside-area-beaver-population-2017-2018</a>.
+</div>
+<div id="ref-campbell-palmer_using_2021" class="csl-entry">
+Campbell-Palmer, Róisín, Alan Puttock, Kelsey A. Wilson, Alicia Leow-Dyke, Hugh A. Graham, Martin J. Gaywood, and Richard E. Brazier. 2021. <span>“Using Field Sign Surveys to Estimate Spatial Distribution and Territory Dynamics Following Reintroduction of the <span>Eurasian</span> Beaver to <span>British</span> River Catchments.”</span> <em>River Research and Applications</em> 37 (3): 343–57. <a href="https://doi.org/10.1002/rra.3755">https://doi.org/10.1002/rra.3755</a>.
+</div>
+<div id="ref-cunliffe_global_nodate" class="csl-entry">
+Cunliffe, Andrew M., Karen Anderson, Fabio Boschetti, Richard E. Brazier, Hugh A. Graham, Isla H. Myers-Smith, Thomas Astor, et al. n.d. <span>“Global Application of an Unoccupied Aerial Vehicle Photogrammetry Protocol for Predicting Aboveground Biomass in Non-Forest Ecosystems.”</span> <em>Remote Sensing in Ecology and Conservation</em>. Accessed July 12, 2021. <a href="https://doi.org/10.1002/rse2.228">https://doi.org/10.1002/rse2.228</a>.
+</div>
+<div id="ref-graham_modelling_2020" class="csl-entry">
+Graham, Hugh A., Alan Puttock, William W. Macfarlane, Joseph M. Wheaton, Jordan T. Gilbert, Róisín Campbell-Palmer, Mark Elliott, Martin J. Gaywood, Karen Anderson, and Richard E. Brazier. 2020. <span>“Modelling <span>Eurasian</span> Beaver Foraging Habitat and Dam Suitability, for Predicting the Location and Number of Dams Throughout Catchments in <span>Great</span> <span>Britain</span>.”</span> <em>European Journal of Wildlife Research</em> 66 (3): 42. <a href="https://doi.org/10.1007/s10344-020-01379-w">https://doi.org/10.1007/s10344-020-01379-w</a>.
+</div>
+<div id="ref-puttock_beaver_2021" class="csl-entry">
+Puttock, Alan, Hugh A. Graham, Josie Ashe, David J. Luscombe, and Richard E. Brazier. 2021. <span>“Beaver Dams Attenuate Flow: <span>A</span> Multi-Site Study.”</span> <em>Hydrological Processes</em> 35 (2): e14017. <a href="https://doi.org/10.1002/hyp.14017">https://doi.org/10.1002/hyp.14017</a>.
+</div>
+<div id="ref-puttock_sediment_2018" class="csl-entry">
+Puttock, Alan, Hugh A. Graham, Donna Carless, and Richard E. Brazier. 2018. <span>“Sediment and Nutrient Storage in a Beaver Engineered Wetland.”</span> <em>Earth Surface Processes and Landforms</em> 43 (11): 2358–70. <a href="https://doi.org/10.1002/esp.4398">https://doi.org/10.1002/esp.4398</a>.
+</div>
+<div id="ref-puttock_eurasian_2017" class="csl-entry">
+Puttock, Alan, Hugh A. Graham, Andrew M. Cunliffe, Mark Elliott, and Richard E. Brazier. 2017. <span>“Eurasian Beaver Activity Increases Water Storage, Attenuates Flow and Mitigates Diffuse Pollution from Intensively-Managed Grasslands.”</span> <em>Science of The Total Environment</em> 576 (January): 430–43. <a href="https://doi.org/10.1016/j.scitotenv.2016.10.122">https://doi.org/10.1016/j.scitotenv.2016.10.122</a>.
+</div>
 </div>
 </div>
 
@@ -358,7 +357,7 @@ $(document).ready(function () {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
@@ -376,7 +375,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>

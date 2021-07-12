@@ -3,22 +3,21 @@
 
 <link rel="stylesheet" href="styles.css" type="text/css">
 
-\
-\
 
-<img src="images/Beaver_Firearms.jpg" style="width:30%; border:2px solid; margin-right: 20px" align="left">
-\
+<img src="images/Beaver_Firearms.jpg" style="width:40%; border:2px solid; margin-right: 20px" align="left">
+
 I am a PhD Student/Researcher at the [University of Exeter](http://geography.exeter.ac.uk/index.html) looking into the impact of reintroducing Eurasian beavers in Great Britain. 
 
 As nature’s engineers, beavers have a substantial impact on our river systems. My research aims to quantify the impacts of beaver reintroduction whilst providing information critical to their future management.
 
 Key areas of interest include: the use of geospatial modelling to understand beaver habitat and population dynamics, using drones to quantify the impact of beaver on riparian vegetation structure and quantifying the impact of beaver dams on hydrological regimes.
 
+I am a big fan of open-source software for research; in particular, R, Python and QGIS.
 
 For further information please see:
 
-
 [Google Scholar](https://scholar.google.co.uk/citations?user=liRn8cYAAAAJ&hl=en) 
 
+[Twitter](https://twitter.com/hughagraham)
 
 Download my CV [here](files/HughGrahamCV.pdf).

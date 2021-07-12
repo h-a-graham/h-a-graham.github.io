@@ -24,5 +24,6 @@
 
 * Modelling beaver territory carrying capacity of the River Otter
 
-* Using Drone-based Structure from Motion (SfM) Photogrammetry to quantify the changes in ripaian vegetation
+* Using Drone-based Structure from Motion (SfM) Photogrammetry to quantify the 
+changes in ripaian vegetation structure.
 

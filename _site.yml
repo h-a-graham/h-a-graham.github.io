@@ -1,5 +1,6 @@
 name: "Hugh A. Graham"
 output_dir: "."
+
 navbar:
   title: "Hugh A. Graham"
   left:

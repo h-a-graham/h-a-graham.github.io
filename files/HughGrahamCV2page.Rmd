@@ -1,0 +1,78 @@
+---
+title: Hugh Graham CV
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+fontfamily: mathpazo
+fontsize: 10pt
+urlcolor: blue
+bibliography: MyPapers.bib
+nocite: |
+  @*
+header-includes:
+  - \usepackage{titling}
+  - \pretitle{\begin{flushleft}\fontsize{18bp}{18bp}\selectfont}
+  - \posttitle{\end{flushleft}}
+---
+\vspace{-1.5cm}
+\pagenumbering{gobble}
+
+*Email:*  hugh.a.graham@gmail.com \
+*Phone:*  07837191722 \
+*Address:*  8, Chestnut Close, Cheriton Bishop, EX6 6JR \
+*Website:*  https://h-a-graham.github.io/ \
+*GitHub:*  https://github.com/h-a-graham
+
+
+## Personal Statement
+
+I am a geospatial/numerical modeller in the Geography department at the University of Exeter (UoE). Using spatially distributed models, time series data analysis, statistical analysis and remote sensing data (off the shelf and acquired with drones), I study the impact of reintroducing the Eurasian beaver in Great Britain with a particular focus on how they affect hydrological flow regimes [(Puttock, et al., 2021)](https://onlinelibrary.wiley.com/doi/full/10.1002/hyp.14017), [riparian woodland strucure](https://github.com/h-a-graham/CWC_Results_Analysis) and predicting the distribution of their habitat and dam building activity ([Graham, et al. 2020](https://link.springer.com/article/10.1007%2Fs10344-020-01379-w)). During my time at UoE, I have developed a passion for programming and open source approaches to science.
+
+Through collaboration, across a diverse range of fields, I have lead the development of a range of software such as:
+
+* [{EAlidaR}](https://github.com/h-a-graham/EAlidaR), an R package, which enables users to download LiDAR data, produced by the Environment Agency, directly into R. As a research group we use this data to undertake hydrological and vegetation modelling; however, manually downloading the data from DEFRA’s portal has always been a time-consuming and limiting factor. This package helps to overcome these issues. This will prove essential for our forthcoming work to develop a national-scale open source terrain model and river network.
+
+* To improve the reproducibility and accuracy of Structure from Motion (SfM) Photogrammetry models, I have developed two Python packages. Firstly, [{sfm_precision}](https://github.com/exeter-creww/SFM_Precision/tree/master/sfm_precision) a python module for Agisoft Metashape, which calculates SFM precision, building on [James et al. (2017)](https://onlinelibrary.wiley.com/doi/full/10.1002/esp.4125). Secondly, [{sfm_gridz}](https://github.com/exeter-creww/SFM_Precision/tree/master/sfm_gridz) a python package to compute differences between digital elevation models with consideration of each model’s precision and error. These packages are extremely useful when working in structurally complex systems where an accurate understanding of uncertainty is critical. 
+
+* The Met Office NIMROD rainfall radar data provides rainfall estimates at a 1km resolution nationally at 5 minute time steps. I have developed a [workflow](https://github.com/exeter-creww/Rainfall_radar) to download this data from the Centre for Environmental Data Analysis (CEDA) FTP server and then process this for a user-specified region to retrieve rainfall time-series data which our group use for hydrological analysis/modelling. The workflow has been used for several projects including: [Upstream Thinking](https://www.exeter.ac.uk/creww/research/casestudies/upstreamthinking/), [Whole Catchment](https://www.exeter.ac.uk/creww/research/casestudies/wholecatchment/), [Mires Project](https://www.exeter.ac.uk/creww/research/casestudies/miresproject/) and our recent paper titled: *'Beaver dams attenuate floods: a multi-site, multi-scale study'* 
+[(Puttock, et al., 2021)](https://onlinelibrary.wiley.com/doi/full/10.1002/hyp.14017).
+
+## Education
+
+*2015-ongoing, University of Exeter* \
+PhD, Understanding the Impact of reintroducing the Eurasian Beaver (*Castor fiber*) in Great Britain.\
+Fully-funded by the Wellcome Trust and UoE. I am currently working part time on my PhD alongside other research projects.
+
+*2013-2014, University of Birmingham* \
+MSc, River environments and their management (Dist.) \
+Dissertation - 78%: An investigation into the impact of the Demon Shrimp (*Dikerogammarus haemobaphes*) on the benthic invertebrate community of the River Cherwell. [Link to thesis](http://www.nonnativespecies.org/index.cfm?pageid=559)
+
+*2009 -2012, University of Exeter* \
+BSc (Hons), Geography (2:1) \
+Dissertation - 78%: A laboratory flume experiment investigating the interaction between bed-load transport, erosion and channel geomorphology.
+
+## Employment
+
+*University of Exeter – Researcher*\
+*01/03/2019 – present* \
+In partnership with Natural England, The Environment Agency, Natural Resources Wales, Scottish Natural Heritage and the Wildlife Trusts I have been developing models to predict Eurasian beaver habitat and estimate the distribution and density of their dams for Great Britain. This required the upscaling of prior work ([Graham, et al. 2020](https://link.springer.com/article/10.1007%2Fs10344-020-01379-w)), developed as part of my PhD, to a national scale. This requires the calculation of numerous hydrological, topographic and vegetation metrics from a range of remotely-sensed datasets using geospatial processing.
+
+*APEM ltd., Cardiff - Aquatic Consultant* \
+*15/10/2014 - 01/10/2015* \
+APEM ltd. is an aquatic consultancy specialising in both freshwater and marine environments. My key roles included: data analysis and visualisation, geospatial analysis and mapping with ArcGIS, report writing and field work.
+
+*RMA environmental limited, Tiverton – Work Placement* \
+*01/05/2013 – 14/06/2013* \
+RMA environmental ltd. is an environmental consultancy. During my placement at RMA, I was responsible for report writing, mapping with QGIS software and data analysis.
+
+## Other Qualifications/Skills
+
+Programming with R and Python
+
+Mapping and spatial analysis in QGIS, GRASS GIS, Arc GIS/Pro and their respective python APIs
+
+## Publications
+
+<div id="refs"></div>
+

@@ -1,15 +1,17 @@
 
 <link rel="stylesheet" href="styles.css" type="text/css">
 
-<img src="images/Beaver_Firearms.jpg" style="width:40%; border:2px solid; margin-right: 20px" align="left">
+<img src="images/Beaver_Firearms.jpg" style="width:50%; border:5px solid; margin-right: 20px" align="left">
 
-I am a PhD Student/Researcher at the [University of Exeter](http://geography.exeter.ac.uk/index.html) looking into the impact of reintroducing Eurasian beavers in Great Britain. 
+I am a geospatial/numerical modeler in the College of Life and Environmental Sciences at the University of Exeter (UoE). Using spatially distributed models, time series analysis, statistical analysis and remote sensing, I study the impact of reintroducing the Eurasian beaver in Great Britain with a particular focus on: riparian woodland structure ([Graham, et al., in review](https://github.com/h-a-graham/CWC_Results_Analysis)), hydrological flow regimes ([(Puttock, et al., 2021](https://onlinelibrary.wiley.com/doi/full/10.1002/hyp.14017)), modelling future population dynamics to understand ecological carrying capacity and the impact of varying management regimes ([Graham, et al., in review](https://github.com/h-a-graham/beavertools)) and predicting the spatial distribution of their habitat and dam building activity ([Graham, et al. 2020](https://link.springer.com/article/10.1007%2Fs10344-020-01379-w)). 
 
-As nature’s engineers, beavers have a substantial impact on our river systems. My research aims to quantify the impacts of beaver reintroduction whilst providing information critical to their future management.
+As I have progressed as a programmer, the value and importance of function-oriented workflows has become clear. I have learned how to make the code I write reproducible and generalisable so that it may be rapidly deployed in a variety of contexts, allowing me to increase my work efficiency and reduce the latency of desired outputs. Primarily, I have achieved this through the creation of my own software packages and use of pipeline toolkits such as the R package {targets}.
 
-Key areas of interest include: the use of geospatial modelling to understand beaver habitat and population dynamics, using drones to quantify the impact of beaver on riparian vegetation structure and quantifying the impact of beaver dams on hydrological regimes.
+I mainly use R and Python for data analysis, visualisation and software development but also keen to learn something new! I  enjoy helping others to find coding solutions; in addition to taking enjoyment from other peoples' development, I find that this dramatically improves my own skills through exposure to novel challenges.
 
 I am a big fan of open-source software for research; in particular, R, Python and QGIS.
+
+\
 
 For further information please see:
 

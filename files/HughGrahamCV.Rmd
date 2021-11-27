@@ -20,7 +20,7 @@ header-includes:
 \pagenumbering{gobble}
 
 *Email:*  hugh.a.graham@gmail.com \
-*Phone:*  +447837191722 \
+*Phone:*  +44 7837191722 \
 *Address:*  8, Chestnut Close, Cheriton Bishop, United Kingdom, EX6 6JR \
 *Website:*  https://h-a-graham.github.io/ \
 *GitHub:*  https://github.com/h-a-graham

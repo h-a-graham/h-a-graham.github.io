@@ -21,7 +21,7 @@ header-includes:
 
 *Email:*  hugh.a.graham@gmail.com \
 *Phone:*  +447837191722 \
-*Address:*  8, Chestnut Close, Cheriton Bishop, EX6 6JR \
+*Address:*  8, Chestnut Close, Cheriton Bishop, United Kingdom, EX6 6JR \
 *Website:*  https://h-a-graham.github.io/ \
 *GitHub:*  https://github.com/h-a-graham
 
@@ -42,8 +42,8 @@ In this role I have also collaborated on a variety of other ecological and conse
 **APEM ltd., Cardiff - Aquatic Consultant** (*15/10/2014 - 01/10/2015*)\
  My key roles included: data analysis and visualisation using R, geospatial analysis and mapping with ArcGIS, report writing and field work.
 
-**RMA environmental limited, Tiverton – Environmental Consultant** (*01/05/2013 – 14/06/2013*)\
-During my placement at RMA, I was responsible for report writing, mapping with QGIS software and data analysis.
+**RMA Environmental Limited, Tiverton – Environmental Consultant** (*01/05/2013 – 14/06/2013*)\
+During my placement at RMA, I was responsible for report writing, mapping (QGIS) and data analysis.
 
 ## Education
 
@@ -66,7 +66,7 @@ Dissertation - 78%: A laboratory flume experiment investigating the interaction 
 
 - I have focused much of my learning, whilst at UoE on improving my programming skills with a particular focus on geospatial. The following projects illustrate the range of data that I work with across a variety of different environmental disciplines:
 
-- [{EAlidaR}](https://github.com/h-a-graham/EAlidaR), an R package that enables users to download high resolution LiDAR data, produced by the Environment Agency, directly into R. I, and our research group, use this data to undertake hydrological and vegetation modelling; however, manually downloading from the data portal is very time-consuming; this package helps to overcome this. The package has been used to increase efficiency in the identification of archaeological features and has been used in recent academic works [Rhodes, et al., 2021](https://onlinelibrary.wiley.com/doi/abs/10.1111/brv.12802).
+- [{EAlidaR}](https://github.com/h-a-graham/EAlidaR), an R package that enables users to download high resolution LiDAR data, produced by the Environment Agency, directly into R. I, and our research group, use this data to undertake hydrological and vegetation modelling; however, manually downloading from the data portal is very time-consuming; this package helps to overcome this. The package has been used to increase efficiency in the identification of archaeological features and has been used in a recent academic publication [Rhodes, et al., 2021](https://onlinelibrary.wiley.com/doi/abs/10.1111/brv.12802).
 
 -  Our research group frequently use Met Office NIMROD rainfall radar data. These data consist of national-scale rainfall rate estimates at a 1km resolution and 5 minute time steps. I developed a [workflow](https://github.com/exeter-creww/Rainfall_radar) using Python and R to download this data from the Centre for Environmental Data Analysis (CEDA) FTP server and process it for user-specified regions to retrieve large rainfall time-series data. The workflow has been used for several projects including: [Upstream Thinking](https://www.exeter.ac.uk/creww/research/casestudies/upstreamthinking/), [Whole Catchment](https://www.exeter.ac.uk/creww/research/casestudies/wholecatchment/), [Mires Project](https://www.exeter.ac.uk/creww/research/casestudies/miresproject/) and [Puttock, et al., 2021](https://onlinelibrary.wiley.com/doi/full/10.1002/hyp.14017) .
 
@@ -77,7 +77,7 @@ Dissertation - 78%: A laboratory flume experiment investigating the interaction 
 ### *- Extensive experience with version control*
 - I use Git version control sotware and [GitHub](https://github.com/h-a-graham) on a daily basis to manage and track the progress of my software development, report writing and data analysis. 
 
-### *- Mapping and spatial analysis in QGIS, Google Earth Engine, GRASS GIS, Arc GIS/Pro and their respective python APIs*
+### *- Mapping and spatial analysis in Google Earth Engine, QGIS, GRASS GIS, Arc GIS/Pro and their respective python APIs*
 - I have been using a wide range of GIS software for >8 years and have gained a strong background in fundamental concepts such as coordinate reference systems, geographic transformations, raster and spatial vector processing and the use of SQL to calculate efficient spatial queries. 
 
 ### *- Experience with High Performance Computing*

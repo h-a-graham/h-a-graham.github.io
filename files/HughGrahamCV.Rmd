@@ -21,7 +21,7 @@ header-includes:
 
 *Email:*  hugh.a.graham@gmail.com \
 *Phone:*  +44 7837191722 \
-*Address:*  8, Chestnut Close, Cheriton Bishop, United Kingdom, EX6 6JR \
+*Address:*  8, Chestnut Close, Cheriton Bishop, UK, EX6 6JR \
 *Website:*  https://h-a-graham.github.io/ \
 *GitHub:*  https://github.com/h-a-graham
 
@@ -88,7 +88,7 @@ Dissertation - 78%: A laboratory flume experiment investigating the interaction 
 
 ><space>- [{sfm_precision}](https://github.com/exeter-creww/SFM_Precision/tree/master/sfm_precision) a python module for Agisoft Metashape, which calculates SfM precision using Metashape's Python API. This builds on [James et al., 2017](https://onlinelibrary.wiley.com/doi/full/10.1002/esp.4125), by improving computational performance and allowing greater scalability.
 
-><space>-[{sfm_gridz}](https://github.com/exeter-creww/SFM_Precision/tree/master/sfm_gridz) a python package to compute differences between digital elevation models with consideration of each model’s precision and error. These packages are extremely useful when working in structurally complex systems where an accurate understanding of uncertainty is critical. These packages were developed as part of our in review manuscript: "Using aerial photogrammetry to detect significant canopy height change resulting from beaver foraging."
+><space>- [{sfm_gridz}](https://github.com/exeter-creww/SFM_Precision/tree/master/sfm_gridz) a python package to compute differences between digital elevation models with consideration of each model’s precision and error. These packages are extremely useful when working in structurally complex systems where an accurate understanding of uncertainty is critical. These packages were developed as part of our in review manuscript: "Using aerial photogrammetry to detect significant canopy height change resulting from beaver foraging."
 
 ### *- Strong statistical analysis skills*
 - I have experience applying a wide range of statistical techniques including: General Linear Models, Mixed effects models, General Additive Models, Principal Component Analysis, Quantile regression, Bayesian regression and Fuzzy inference. Many members of our research group, of >20 people, reach out to me for advice and discussion on the application of statistical methods.

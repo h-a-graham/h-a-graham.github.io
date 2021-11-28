@@ -1,13 +1,13 @@
 ---
 title: Hugh Graham CV
-output:
-  pdf_document: default
+output: 
+  pdf_document:
   html_document:
     df_print: paged
 fontfamily: mathpazo
 fontsize: 10pt
 urlcolor: blue
-bibliography: MyPapers2.bib
+# bibliography: MyPapers2.bib
 nocite: |
   @*
 header-includes:
@@ -16,26 +16,33 @@ header-includes:
   - \posttitle{\end{flushleft}}
   
 ---
-\vspace{-1.5cm}
+```{=tex}
+\vspace{-4cm}
 \pagenumbering{gobble}
 
-*Email:*  hugh.a.graham@gmail.com \
-*Phone:*  +44 7837191722 \
-*Address:*  8, Chestnut Close, Cheriton Bishop, UK, EX6 6JR \
-*Website:*  https://h-a-graham.github.io/ \
-*GitHub:*  https://github.com/h-a-graham
+```
+\hfill Email: [hugh.a.graham\@gmail.com](mailto:hugh.a.graham@gmail.com){.email}
 
+\hfill Phone: +44 7837191722
+
+\hfill Address: 8, Chestnut Close, Cheriton Bishop, UK, EX6 6JR
+
+\hfill Website: <https://h-a-graham.github.io/>
+
+\hfill GitHub: <https://github.com/h-a-graham>
+
+\raggedright
 
 ## Employment
 
 **University of Exeter – Geospatial Research Assistant** (*01/03/2019 – present*)\
-I am the lead geospatial data analyst on several research projects in partnership with Natural England, The Environment Agency, Natural Resources Wales, Scottish Natural Heritage and the Wildlife Trusts to model Eurasian beaver habitat and estimate the potential distribution and density of their dams for Great Britain. Building on our previous work ([Graham, et al. 2020](https://link.springer.com/article/10.1007%2Fs10344-020-01379-w)), developed as part of my PhD, I up-scaled the model for the entire British river network. This required the automated reading and processing of hydrological, topographic and vegetation metrics from a range of remotely-sensed datasets using a geospatial processing pipeline comprising Python, R and GRASS GIS. Moving this workflow from the landscape to national scale has taught me a huge amount in terms of designing stable workflows for processing big spatial data.
+Lead geospatial data analyst on several research projects in partnership with Natural England, The Environment Agency, Natural Resources Wales, Scottish Natural Heritage and the Wildlife Trusts to model Eurasian beaver habitat and estimate the potential distribution and density of their dams for Great Britain. This required the automated reading and processing of hydrological, topographic and vegetation metrics from a range of remotely-sensed datasets using a geospatial processing pipeline comprising Python, R and GRASS GIS. Moving this workflow from the landscape to national scale has taught me a huge amount in terms of designing stable workflows for processing big spatial data.
 
 To accompany this work, I have produced an [ArcGIS plugin](https://github.com/exeter-creww/Beaver_Tools_ArcToolbox) and R shiny App to allow our partners to explore, interrogate and download the data. 
 
 In this role I have also collaborated on a variety of other ecological and conservation projects such as:
 
-><space>- Modelling Above ground biomass using drone-based Structure from Motion to create gloablly relevant allomtric models in low stature ecosystems [Cunliffe, et al., 2021](https://zslpublications.onlinelibrary.wiley.com/doi/full/10.1002/rse2.228)
+><space>- Modelling aboveground biomass using drone-based structure from motion to create gloablly relevant allomtric models in low stature ecosystems ([Cunliffe, et al., 2021](https://zslpublications.onlinelibrary.wiley.com/doi/full/10.1002/rse2.228))
 
 ><space>- Forest connectivity modelling, in partnership with Cornwall County Council, in support of their nature recovery program to evaluate the feasibility of species reintroductions. 
 
@@ -50,7 +57,7 @@ During my placement at RMA, I was responsible for report writing, mapping (QGIS)
 **2015-ongoing, University of Exeter  PhD** *(submission Decemeber 2021)*\
 *PhD, Understanding the Impact of Reintroducing the Eurasian Beaver (Castor fiber) in Great Britain.*
 
-Using spatially distributed models, time series analysis, statistical analysis and remote sensing, I study the impact of reintroducing the Eurasian beaver in Great Britain with a particular focus on: riparian woodland structure ([Graham, et al., in review](https://github.com/h-a-graham/CWC_Results_Analysis)), hydrological flow regimes ([(Puttock, et al., 2021](https://onlinelibrary.wiley.com/doi/full/10.1002/hyp.14017)), modelling future population dynamics to understand ecological carrying capacity and the impact of varying management regimes ([Graham, et al., in review](https://github.com/h-a-graham/beavertools)) and predicting the spatial distribution of their habitat and dam building activity ([Graham, et al. 2020](https://link.springer.com/article/10.1007%2Fs10344-020-01379-w)). 
+Using spatially distributed models, time series analysis, statistical analysis and remote sensing, I study the impact of reintroducing the Eurasian beaver in Great Britain with a particular focus on: riparian woodland structure ([Graham, et al., In Review](https://github.com/h-a-graham/CWC_Results_Analysis)), hydrological flow regimes ([(Puttock, et al., 2021](https://onlinelibrary.wiley.com/doi/full/10.1002/hyp.14017)), modelling future population dynamics to understand ecological carrying capacity and the impact of varying management regimes ([Graham, et al., In Review](https://github.com/h-a-graham/beavertools)) and predicting the spatial distribution of their habitat and dam building activity ([Graham, et al. 2020](https://link.springer.com/article/10.1007%2Fs10344-020-01379-w)). 
 
 **2013-2014, University of Birmingham** 
 *MSc, River environments and their management (Dist.)* \
@@ -64,24 +71,24 @@ Dissertation - 78%: A laboratory flume experiment investigating the interaction 
 
 ### *- Very strong proficiency with R and Python programming languages:*
 
-- I have focused much of my learning, whilst at UoE on improving my programming skills with a particular focus on geospatial. The following projects illustrate the range of data that I work with across a variety of different environmental disciplines:
+I have focused much of my learning, whilst at UoE on improving my programming skills with a particular focus on geospatial. The following projects illustrate the range of data that I work with across a variety of different environmental disciplines:
 
-- [{EAlidaR}](https://github.com/h-a-graham/EAlidaR), an R package that enables users to download high resolution LiDAR data, produced by the Environment Agency, directly into R. I, and our research group, use this data to undertake hydrological and vegetation modelling; however, manually downloading from the data portal is very time-consuming; this package helps to overcome this. The package has been used to increase efficiency in the identification of archaeological features and has been used in a recent academic publication [Rhodes, et al., 2021](https://onlinelibrary.wiley.com/doi/abs/10.1111/brv.12802).
+- [{EAlidaR}](https://github.com/h-a-graham/EAlidaR), an R package that enables users to download high resolution LiDAR data, produced by the Environment Agency, directly into R. I, and our research group, use this data to undertake hydrological and vegetation modelling; however, manually downloading from the data portal is very time-consuming; this package helps to overcome this. The package has been used to increase efficiency in the identification of archaeological features and has been used in a recent academic publication ([Rhodes, et al., 2021](https://onlinelibrary.wiley.com/doi/abs/10.1111/brv.12802)).
 
--  Our research group frequently use Met Office NIMROD rainfall radar data. These data consist of national-scale rainfall rate estimates at a 1km resolution and 5 minute time steps. I developed a [workflow](https://github.com/exeter-creww/Rainfall_radar) using Python and R to download this data from the Centre for Environmental Data Analysis (CEDA) FTP server and process it for user-specified regions to retrieve large rainfall time-series data. The workflow has been used for several projects including: [Upstream Thinking](https://www.exeter.ac.uk/creww/research/casestudies/upstreamthinking/), [Whole Catchment](https://www.exeter.ac.uk/creww/research/casestudies/wholecatchment/), [Mires Project](https://www.exeter.ac.uk/creww/research/casestudies/miresproject/) and [Puttock, et al., 2021](https://onlinelibrary.wiley.com/doi/full/10.1002/hyp.14017) .
+-  Our research group frequently use Met Office NIMROD rainfall radar data. These data consist of national-scale rainfall rate estimates at a 1 km resolution and 5 minute time steps. I developed a [workflow](https://github.com/exeter-creww/Rainfall_radar) using Python and R to download this data from the Centre for Environmental Data Analysis (CEDA) FTP server and process it for user-specified regions to retrieve large rainfall time-series data. The workflow has been used for several projects including: [Upstream Thinking](https://www.exeter.ac.uk/creww/research/casestudies/upstreamthinking/), [Whole Catchment](https://www.exeter.ac.uk/creww/research/casestudies/wholecatchment/), [Mires Project](https://www.exeter.ac.uk/creww/research/casestudies/miresproject/) and [Puttock, et al., 2021](https://onlinelibrary.wiley.com/doi/full/10.1002/hyp.14017).
 
--  [{rayvista}](https://github.com/h-a-graham/rayvista) is an R package that enables rapid access to geospatial data for generating 2.5D and hillshade visulasations. This project has received wide community engagement and the package is freuently downloaded 
+-  [{rayvista}](https://github.com/h-a-graham/rayvista) is an R package that enables rapid access to geospatial data for generating 2.5D and hillshade visulasations. This project has received wide community engagement and the package is frequently downloaded.
 
--  I have contributed to open source projects. For example, I provided a patch for the the widely used [{maptiles}](https://github.com/riatelab/maptiles) R package and I have also helped to develop a web app called [Is The Dart Running?](http://isthedartrunning.co.uk/) which uses a machine learning approach to predict the water level of the River Dart (SW England) to determine if the river is high enough to kayak.
+-  I have contributed to Open source projects. For example, I provided a patch for the the widely used [{maptiles}](https://github.com/riatelab/maptiles) R package and I have also helped to develop a web app called [Is The Dart Running?](http://isthedartrunning.co.uk/) which uses a machine learning approach to predict the water level of the River Dart (SW England).
 
 ### *- Extensive experience with version control*
 - I use Git version control sotware and [GitHub](https://github.com/h-a-graham) on a daily basis to manage and track the progress of my software development, report writing and data analysis. 
 
 ### *- Mapping and spatial analysis in Google Earth Engine, QGIS, GRASS GIS, Arc GIS/Pro and their respective python APIs*
-- I have been using a wide range of GIS software for >8 years and have gained a strong background in fundamental concepts such as coordinate reference systems, geographic transformations, raster and spatial vector processing and the use of SQL to calculate efficient spatial queries. 
+- I have been using a wide range of GIS software for > 8 Years and have gained a strong background in fundamental concepts such as coordinate reference systems, geographic transformations, raster and spatial vector processing and the use of SQL to calculate efficient spatial queries. 
 
 ### *- Experience with High Performance Computing*
-- SfM work is often computationally intensive and I have therefore helped to move some of this processing to UoE's ISCA High Performance Computing (HPC) facility as part of [Cunliffe, et al., 2020](https://zslpublications.onlinelibrary.wiley.com/doi/full/10.1002/rse2.228). This required the scheduling of distributed computing using the command line in combination with Python. I would enjoy the opportunity to further advance my skills with HPC, particularly for cloud-based processing.
+- SfM work is often computationally intensive and I have therefore helped to move some of this processing to UoE's ISCA High Performance Computing (HPC) facility as part of [Cunliffe, et al., 2021](https://zslpublications.onlinelibrary.wiley.com/doi/full/10.1002/rse2.228). This required the scheduling of distributed computing using the command line in combination with Python. I would enjoy the opportunity to further advance my skills with HPC, particularly for cloud-based processing.
 
 ### *- Extensive experience with Agisoft Metashape SfM photogrammetry software and its Python API*
 - I work extensively with drone-based Structure from Motion (SfM) photogrammetry to understand changes in vegetation structure. In order to improve the reproducibility and accuracy of these models, I have developed two Python packages to streamline processing:
@@ -91,7 +98,7 @@ Dissertation - 78%: A laboratory flume experiment investigating the interaction 
 ><space>- [{sfm_gridz}](https://github.com/exeter-creww/SFM_Precision/tree/master/sfm_gridz) a python package to compute differences between digital elevation models with consideration of each model’s precision and error. These packages are extremely useful when working in structurally complex systems where an accurate understanding of uncertainty is critical. These packages were developed as part of our in review manuscript: "Using aerial photogrammetry to detect significant canopy height change resulting from beaver foraging."
 
 ### *- Strong statistical analysis skills*
-- I have experience applying a wide range of statistical techniques including: General Linear Models, Mixed effects models, General Additive Models, Principal Component Analysis, Quantile regression, Bayesian regression and Fuzzy inference. Many members of our research group, of >20 people, reach out to me for advice and discussion on the application of statistical methods.
+- I have experience applying a wide range of statistical techniques including: General Linear Models, Mixed effects models, General Additive Models, Principal Component Analysis, Quantile regression, Bayesian regression and Fuzzy inference. Many members of our research group, of > 30 people, reach out to me for advice and discussion on the application of statistical methods.
 
 ### *- Cartography*
 - I enjoy using code for cartography. Some recent examples of my maps can be found [here](https://github.com/h-a-graham/Hugh-30DayMapChallenge).
@@ -103,7 +110,35 @@ Dissertation - 78%: A laboratory flume experiment investigating the interaction 
 
 ## Publications
 
-<div id="refs"></div>
+Graham, H., Benaud, P., Cunliffe, A., Puttock, A., Chant, J., Elliott, M., Anderson, K. and Brazier, R. (**In Review**) Using aerial photogrammetry to detect significant canopy height change resulting from beaver foraging. Remote Sensing in Ecology and Conservation (manuscript ID: RSEC-2021-09-0162).
+
+Cunliffe, A., K. Anderson, F. Boschetti, R. Brazier, H. Graham, I. Myers-Smith, T. Astor, et al. **2021**. “Global Application of an Unoccupied Aerial Vehicle Photogrammetry Protocol for Predicting Aboveground Biomass in Non-Forest Ecosystems.” Remote Sensing in Ecology and Conservation. \
+https://doi.org/10.1002/rse2.228
+
+Puttock, A., H. Graham, J. Ashe, D. Luscombe, and R. Brazier. **2021**. “Beaver Dams Attenuate Flow: A Multi-Site Study.” Hydrological Processes n/a: e14017. \
+https://doi.org/https://doi.org/10.1002/hyp.14017.
+
+Campbell-Palmer, R., Alan Puttock, K. Wilson, A. Leow-Dyke, H. Graham, M. Gaywood, and R. Brazier. **2020**. “Using Field Sign Surveys to Estimate Spatial Distribution and Territory Dynamics Following Reintroduction of the Eurasian Beaver to British River Catchments.” River Research and Applications. \
+https://doi.org/https://doi.org/10.1002/rra.3755.
+
+Graham, H., A. Puttock, W. Macfarlane, J. Wheaton, J. Gilbert, R. Campbell-Palmer, M. Elliott, M. Gaywood, K. Anderson, and R. Brazier. **2020**. “Modelling Eurasian Beaver Foraging Habitat and Dam Suitability, for Predicting the Location and Number of Dams Throughout Catchments in Great Britain.” European Journal of Wildlife Research 66 (3): 42. \
+https://doi.org/10.1007/s10344-020-01379-w.
+
+Brazier, R., M. Elliott, E. Andison, R. Auster, S. Bridgewater, P. Burgess, J. Chant, et al. **2020a**. “River Otter Beaver Trial: Science and Evidence Report. River Otter Beaver Trial, Devon.” \
+https://www.exeter.ac.uk/creww/research/beavertrial/.
+
+Brazier, R., A.Puttock, H. Graham, R. Auster, K. Davies, and C. Brown. **2020b**. “Beaver: Nature’s Ecosystem Engineers.” WIREs Water. \
+https://doi.org/https://doi.org/10.1002/wat2.1494.
+
+Puttock, A., H. Graham, D. Carless, and R. Brazier. **2018**. “Sediment and Nutrient Storage in a Beaver Engineered Wetland.” Earth Surface Processes and Landforms 43 (11): 2358–70. \
+https://doi.org/10.1002/esp.4398.
+
+Campbell-Palmer, R., A. Puttock, H. Graham, K. Wilson, G. Schwab, M. Gaywood, and R. Brazier. **2018**. “Survey of the Tayside Area Beaver Population 2017-2018.” \
+https://www.nature.scot/naturescot-research-report-1013-survey-tayside-area-beaver-population-2017-2018.
+
+Puttock, A., H. Graham, A. Cunliffe, M. Elliott, and R. Brazier. **2017**. “Eurasian Beaver Activity Increases Water Storage, Attenuates Flow and Mitigates Diffuse Pollution from Intensively-Managed Grasslands.” Science of The Total Environment 576 (January): 430–43. \
+https://doi.org/10.1016/j.scitotenv.2016.10.122.
+
 
 ## References
 

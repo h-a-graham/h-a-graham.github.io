@@ -1,7 +1,7 @@
 ---
-bibliography: files/MyPapers2.bib
-nocite: |
-  @*
+# bibliography: files/MyPapers2.bib
+# nocite: |
+#   @*
 ---
 
 <link rel="stylesheet" href="styles.css" type="text/css">
@@ -18,3 +18,32 @@ For a full list of my publications check out my
 \
 
 <div id="refs"></div>
+
+Graham, H., Benaud, P., Cunliffe, A., Puttock, A., Chant, J., Elliott, M., Anderson, K. and Brazier, R. (**In Review**) Using aerial photogrammetry to detect significant canopy height change resulting from beaver foraging. Remote Sensing in Ecology and Conservation (manuscript ID: RSEC-2021-09-0162).
+
+Cunliffe, A., K. Anderson, F. Boschetti, R. Brazier, H. Graham, I. Myers-Smith, T. Astor, et al. **2021**. “Global Application of an Unoccupied Aerial Vehicle Photogrammetry Protocol for Predicting Aboveground Biomass in Non-Forest Ecosystems.” Remote Sensing in Ecology and Conservation. \
+https://doi.org/10.1002/rse2.228
+
+Puttock, A., H. Graham, J. Ashe, D. Luscombe, and R. Brazier. **2021**. “Beaver Dams Attenuate Flow: A Multi-Site Study.” Hydrological Processes n/a: e14017. \
+https://doi.org/https://doi.org/10.1002/hyp.14017.
+
+Campbell-Palmer, R., Alan Puttock, K. Wilson, A. Leow-Dyke, H. Graham, M. Gaywood, and R. Brazier. **2020**. “Using Field Sign Surveys to Estimate Spatial Distribution and Territory Dynamics Following Reintroduction of the Eurasian Beaver to British River Catchments.” River Research and Applications. \
+https://doi.org/https://doi.org/10.1002/rra.3755.
+
+Graham, H., A. Puttock, W. Macfarlane, J. Wheaton, J. Gilbert, R. Campbell-Palmer, M. Elliott, M. Gaywood, K. Anderson, and R. Brazier. **2020**. “Modelling Eurasian Beaver Foraging Habitat and Dam Suitability, for Predicting the Location and Number of Dams Throughout Catchments in Great Britain.” European Journal of Wildlife Research 66 (3): 42. \
+https://doi.org/10.1007/s10344-020-01379-w.
+
+Brazier, R., M. Elliott, E. Andison, R. Auster, S. Bridgewater, P. Burgess, J. Chant, et al. **2020a**. “River Otter Beaver Trial: Science and Evidence Report. River Otter Beaver Trial, Devon.” \
+https://www.exeter.ac.uk/creww/research/beavertrial/.
+
+Brazier, R., A.Puttock, H. Graham, R. Auster, K. Davies, and C. Brown. **2020b**. “Beaver: Nature’s Ecosystem Engineers.” WIREs Water. \
+https://doi.org/https://doi.org/10.1002/wat2.1494.
+
+Puttock, A., H. Graham, D. Carless, and R. Brazier. **2018**. “Sediment and Nutrient Storage in a Beaver Engineered Wetland.” Earth Surface Processes and Landforms 43 (11): 2358–70. \
+https://doi.org/10.1002/esp.4398.
+
+Campbell-Palmer, R., A. Puttock, H. Graham, K. Wilson, G. Schwab, M. Gaywood, and R. Brazier. **2018**. “Survey of the Tayside Area Beaver Population 2017-2018.” \
+https://www.nature.scot/naturescot-research-report-1013-survey-tayside-area-beaver-population-2017-2018.
+
+Puttock, A., H. Graham, A. Cunliffe, M. Elliott, and R. Brazier. **2017**. “Eurasian Beaver Activity Increases Water Storage, Attenuates Flow and Mitigates Diffuse Pollution from Intensively-Managed Grasslands.” Science of The Total Environment 576 (January): 430–43. \
+https://doi.org/10.1016/j.scitotenv.2016.10.122.

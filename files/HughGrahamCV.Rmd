@@ -115,7 +115,7 @@ Graham, H., Benaud, P., Cunliffe, A., Puttock, A., Chant, J., Elliott, M., Ander
 Cunliffe, A., K. Anderson, F. Boschetti, R. Brazier, H. Graham, I. Myers-Smith, T. Astor, et al. **2021**. “Global Application of an Unoccupied Aerial Vehicle Photogrammetry Protocol for Predicting Aboveground Biomass in Non-Forest Ecosystems.” Remote Sensing in Ecology and Conservation. \
 https://doi.org/10.1002/rse2.228
 
-Puttock, A., H. Graham, J. Ashe, D. Luscombe, and R. Brazier. **2021**. “Beaver Dams Attenuate Flow: A Multi-Site Study.” Hydrological Processes n/a: e14017. \
+Puttock, A., H. Graham, J. Ashe, D. Luscombe, and R. Brazier. **2021**. “Beaver Dams Attenuate Flow: A Multi-Site Study.” Hydrological Processes 35(2), e14017. \
 https://doi.org/https://doi.org/10.1002/hyp.14017.
 
 Campbell-Palmer, R., Alan Puttock, K. Wilson, A. Leow-Dyke, H. Graham, M. Gaywood, and R. Brazier. **2020**. “Using Field Sign Surveys to Estimate Spatial Distribution and Territory Dynamics Following Reintroduction of the Eurasian Beaver to British River Catchments.” River Research and Applications. \
@@ -143,7 +143,7 @@ https://doi.org/10.1016/j.scitotenv.2016.10.122.
 ## References
 
 ----------------------------------------------------------------------
-**Dr Andrew Cunliffe** (Senior Researher) \
+**Dr Andrew Cunliffe** (Senior Research Fellow) \
 College of Life and Environmental Sciences, University of Exeter \
 A.Cunliffe@exeter.ac.uk \
 Amory Building, University of Exeter, Rennes Drive, Exeter, EX4 4RJ, UK
